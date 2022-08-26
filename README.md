@@ -17,6 +17,10 @@ The LaTeX requirements are:
 * `tufte-latex` and all the associated packages
 * `mhchem`
 
+On Fedora, TeX packages should be installed with `dnf`, with `texlive-*` depending on
+what packages are missing. In particular, `texlive-collections-fontsrecommended` is
+probably needed, but not obvious.
+
 ## Instructions
 
 1. Write your content in Pandoc Markdown, including any settings that might
